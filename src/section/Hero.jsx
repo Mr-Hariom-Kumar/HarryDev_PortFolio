@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section className='flex items-start  md:items-start justify-center
      md:justify-start min-h-screen overflow-hidden c-space
-     '>
+     ' id='home'>
       <HeroText/>
       <Parallax/>
       <figure className='absolute inset-0' style={{width:"100vw",height:"100vh"}}>

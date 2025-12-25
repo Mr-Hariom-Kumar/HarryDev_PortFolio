@@ -4,6 +4,9 @@ import Hero from "./section/Hero";
 import About from "./section/About";
 import Projects from "./section/Projects";
 import Experiences from "./section/Experiences";
+import Testimonial from "./section/Testimonial";
+import Contact from "./section/Contact";
+import Footer from "./section/Footer";
 // import Hero from "./sections/Hero";
 // import About from "./sections/About";
 // import Projects from "./sections/Projects";
@@ -20,11 +23,10 @@ const App = () => {
       <About/>
       <Projects />
       <Experiences />
-      <section className="min-h-screen"></section>
-      {/* <Hero />
       <Testimonial />
       <Contact />
-      <Footer/> */}
+      <Footer/>
+   
     </div>
   );
 };
