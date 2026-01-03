@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./section/Navbar";
 import Hero from "./section/Hero";
 import About from "./section/About";
@@ -7,27 +8,29 @@ import Experiences from "./section/Experiences";
 import Testimonial from "./section/Testimonial";
 import Contact from "./section/Contact";
 import Footer from "./section/Footer";
-// import Hero from "./sections/Hero";
-// import About from "./sections/About";
-// import Projects from "./sections/Projects";
-// import Experiences from "./sections/Experiences";
-// import Testimonial from "./sections/Testimonial";
-// import Contact from "./sections/Contact";
-// import Footer from './sections/Footer';
+import ResumePage from "./components/ResumePage";
 
-const App = () => {
+const HomePage = () => {
   return (
     <div className="container mx-auto max-w-7xl">
       <Navbar />
       <Hero />
-      <About/>
+      <About />
       <Projects />
       <Experiences />
       <Testimonial />
       <Contact />
-      <Footer/>
-   
+      <Footer />
     </div>
+  );
+};
+
+const App = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/resume" element={<ResumePage />} />
+    </Routes>
   );
 };
 

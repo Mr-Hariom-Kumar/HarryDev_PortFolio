@@ -1,5 +1,6 @@
 import React from "react";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import codingPov from '../assets/coding-pov.png'
 import Card from "../components/Card";
 import node from "../assets/logo/node.png"
@@ -29,6 +30,12 @@ const About = () => {
             <p className="subtext">
               Over the last 1.5 years, I developed my frontend and backend dev
               skills to deliver dynamic and software and web applications.
+              <Link 
+                to="/resume" 
+                className="text-indigo-400 hover:text-indigo-300 underline transition-colors"
+              >
+                View my resume
+              </Link>
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-linear-to-t from-indigo" />
