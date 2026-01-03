@@ -15,7 +15,7 @@ const ResumePage = () => {
 
   return (
     <div className="min-h-screen bg-[#0E0E10]">
-      {/* Glassy Header */}
+      {/*  Header */}
       <div className="sticky top-0 z-10 backdrop-blur-lg bg-[#1a1a1d]/40 shadow-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center gap-4 flex-wrap">
           <Link 
@@ -31,7 +31,7 @@ const ResumePage = () => {
           
           <button
             onClick={handleDownload}
-            className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all whitespace-nowrap shadow-lg"
+            className="bg-royal  hover:bg-violet-800 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all whitespace-nowrap shadow-lg cursor-pointer"
           >
             Download
           </button>
