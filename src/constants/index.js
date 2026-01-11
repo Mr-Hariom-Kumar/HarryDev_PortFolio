@@ -15,7 +15,7 @@ export const myProjects = [
       "MVC structured backend with controllers & models",
       "Deployed frontend on Vercel for smooth user experience"
     ],
-    href: "https://food-file-4wl3.vercel.app/",
+    href: "https://foodfile.onlinehari.tech/",
     logo: "",
     image: `${foodfile}`,
     tags: [
@@ -39,7 +39,7 @@ export const myProjects = [
       "Stripe payment integration for paid appointment booking",
       "Admin panel for user & schedule management"
     ],
-    href: "https://treat-doc-app.vercel.app/",
+    href: "https://treat.onlinehari.tech/",
     logo: "",
     image: `${treat}`,
     tags: [
